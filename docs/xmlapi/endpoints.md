@@ -38,15 +38,18 @@
   Lists Items and details of a particular contract.
 * [Contracts](char_contracts.md)<br />
   Returns available contracts to character.
-* [FacWarStats](char_facwarstats.md)
+* [FacWarStats](char_facwarstats.md)<br />
+  Returns faction warfare information for characters enrolled in faction warfare.
 * [IndustryJobs](char_industryjobs.md)
 * [IndustryJobsHistory](char_industryjobshistory.md)
 * [KillLog](char_killlog.md)
 * [KillMails](char_killmails.md)
 * [Locations](char_locations.md)
 * [MailBodies](char_mailbodies.md)
-* [MailingLists](char_mailinglists.md)
+* [MailingLists](char_mailinglists.md)<br />
+  Returns the mailing list the character is a member of.
 * [MailMessages](char_mailmessages.md)
+  Returns the header of eve mail messages send to the character.
 * [MarketOrders](char_marketorders.md)<br />
   Retrieve character Market Orders.
 * [Medals](char_medals.md)
@@ -105,18 +108,32 @@
   Retrieve corporation wallet transactions.
   
 ## Eve
-* [AllianceList](eve_alliancelist.md)
+* [AllianceList](eve_alliancelist.md)<br />
+  Returns active Alliances in New Eden and their member Corporations.
 * [CharacterAffiliation](eve_characteraffiliation.md)
 * [CharacterID](eve_characterid.md)
-* [ConquerableStationList](eve_conquerablestationlist.md)
-* [ErrorList](eve_errorlist.md)
-* [RefTypes](eve_reftypes.md)
+* [CharacterInfo](eve_characterinfo.md)<br />
+  Returns information about the character. Has three data sets it can return depending on access mask.
+* [CharacterName](eve_charactername.md)<br />
+  Returns the names for a comma-separated list of owner IDs for characters, corporations, alliances, and so on.
+* [ConquerableStationList](eve_conquerablestationlist.md)<br />
+  Returns a list of conquerable stations in New Eden.
+* [ErrorList](eve_errorlist.md)<br />
+  Returns a list of error codes and text that the API may return.
+* [RefTypes](eve_reftypes.md)<br />
+  Returns a list of transaction types used in the [Corp-WalletJournal](corp_walletjournal.md) & [Char-WalletJournal](char_walletjournal.md).
+* [TypeName](eve_typename.md)<br />
+  Returns the names associated with a sequence of typeIDs.
 
 ## Map
 * [FacWarSystems](map_facwarsystems.md)
-* [Jumps](map_jumps.md)
-* [Kills](map_kills.md)
-* [Sovereignty](map_sovereignty.md)
+* [Jumps](map_jumps.md)<br />
+  Provides number of jumps into per solar system, doesn't include wormhole space. 
+* [Kills](map_kills.md)<br />
+  Provides number of ship, pod and NPC kills per solar system, doesn't include wormhole space. 
+* [Sovereignty](map_sovereignty.md)<br />
+  Provides Sovereignty / Ownership information for solar systems in New Eden excluding wormhole space.
 
 ## Server
-* [ServerStatus](serv_serversstatus.md)
+* [ServerStatus](serv_serversstatus.md)<br />
+  Provides status of the server up/down and the number of users logged onto the server.
