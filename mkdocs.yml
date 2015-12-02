@@ -76,4 +76,7 @@ pages:
 - ['imageserver/intro.md', 'Image Server', 'Introduction']
 - ['imageserver/iec.md', 'Image Server', 'Image Export Collection']
 - ['imageserver.md', 'Image Server Test']
+extra_css:
+- css/collapsible.css
 theme: readthedocs
+theme_dir: 'readthedocs_custom'
