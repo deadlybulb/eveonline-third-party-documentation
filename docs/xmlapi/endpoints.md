@@ -48,7 +48,7 @@
 * [MailBodies](char_mailbodies.md)
 * [MailingLists](char_mailinglists.md)<br />
   Returns the mailing list the character is a member of.
-* [MailMessages](char_mailmessages.md)
+* [MailMessages](char_mailmessages.md)<br />
   Returns the header of eve mail messages send to the character.
 * [MarketOrders](char_marketorders.md)<br />
   Retrieve character Market Orders.
@@ -64,7 +64,8 @@
 * [SkillQueue](char_skillqueue.md)
 * [Standings](char_standings.md)<br />
   Retrieve character standings.
-* [UpcomingCalendarEvents](char_upcomingcalendarevents.md)
+* [UpcomingCalendarEvents](char_upcomingcalendarevents.md)<br />
+  Retrieve character upcoming calendar events.
 * [WalletJournal](char_walletjournal.md)<br />
   Retrieve character wallet journal.
 * [WalletTransactions](char_wallettransactions.md)<br />
