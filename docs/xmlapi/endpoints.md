@@ -48,7 +48,7 @@
 * [MailBodies](char_mailbodies.md)
 * [MailingLists](char_mailinglists.md)<br />
   Returns the mailing list the character is a member of.
-* [MailMessages](char_mailmessages.md)
+* [MailMessages](char_mailmessages.md)<br />
   Returns the header of eve mail messages send to the character.
 * [MarketOrders](char_marketorders.md)<br />
   Retrieve character Market Orders.
